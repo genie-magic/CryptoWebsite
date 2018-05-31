@@ -1,0 +1,16 @@
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: 'Montserrat-ExtraBold';
+  src: url('./fonts/montserrat-extra-bold.eot'); /* IE9 Compat Modes */
+  src: url('./fonts/montserrat-extra-bold.eot?#iefix')
+      format('embedded-opentype'),
+    /* IE6-IE8 */ url('./fonts/montserrat-extra-bold.otf') format('opentype'),
+    /* Open Type Font */ url('./fonts/montserrat-extra-bold.svg') format('svg'),
+    /* Legacy iOS */ url('./fonts/montserrat-extra-bold.ttf') format('truetype'),
+    /* Safari, Android, iOS */ url('./fonts/montserrat-extra-bold.woff')
+      format('woff'),
+    /* Modern Browsers */ url('./fonts/montserrat-extra-bold.woff2')
+      format('woff2'); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}

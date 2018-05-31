@@ -1,0 +1,51 @@
+{
+  "name": "marketing-portal",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^4.1.0",
+    "flexbox-react": "^4.4.0",
+    "history": "^4.7.2",
+    "husky": "^0.14.3",
+    "lint-staged": "^7.0.4",
+    "node-sass-chokidar": "^1.2.2",
+    "npm-run-all": "^4.1.2",
+    "prettier": "1.12.1",
+    "react": "^16.3.2",
+    "react-countup": "^3.0.3",
+    "react-dom": "^16.3.2",
+    "react-icons": "^2.2.7",
+    "react-parallax": "^1.7.0",
+    "react-progressbar": "^15.4.1",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.2.2",
+    "react-router-redux": "^5.0.0-alpha.9",
+    "react-scripts": "1.1.4",
+    "react-scroll": "^1.7.9",
+    "react-typist": "^2.0.4",
+    "react-waypoint": "^8.0.1",
+    "reactstrap": "^6.0.1",
+    "redux": "^4.0.0",
+    "redux-actions": "^2.3.2",
+    "redux-devtools-extension": "^2.13.2",
+    "redux-saga": "^0.16.0",
+    "redux-thunk": "^2.2.0"
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx,json,css}": [
+      "prettier --single-quote --write",
+      "git add"
+    ]
+  },
+  "scripts": {
+    "precommit": "lint-staged",
+    "build-css": "node-sass-chokidar src/ -o src/",
+    "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive",
+    "start-js": "react-scripts start",
+    "start": "npm-run-all -p watch-css start-js",
+    "build-js": "react-scripts build",
+    "build": "npm-run-all build-css build-js",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
