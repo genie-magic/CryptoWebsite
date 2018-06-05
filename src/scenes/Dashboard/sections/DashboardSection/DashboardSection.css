@@ -1,0 +1,74 @@
+.dashboard-section {
+  background: linear-gradient(-45deg, #2e5496, #022262, #1e4c78);
+}
+.dashboard-section .Aligner-item--top {
+  align-self: flex-start;
+}
+.dashboard-section .Aligner-item--bottom {
+  align-self: flex-end;
+}
+.dashboard-section .title,
+.dashboard-section .balance,
+.dashboard-section .rate,
+.dashboard-section .equivalent {
+  color: white;
+}
+.dashboard-section .title {
+  font-size: 3.5em;
+  margin-bottom: 20px;
+}
+.dashboard-section .equivalent {
+  font-size: 0.7em;
+  text-align: right;
+  width: 100%;
+}
+.dashboard-section .balance {
+  display: inline-block;
+}
+.dashboard-section .transparent-div {
+  background: transparent;
+  border-radius: 15px;
+  color: white;
+  border: 1px solid white;
+  padding: 4px 2px;
+  margin-bottom: 20px;
+}
+.dashboard-section .deposit-block,
+.dashboard-section .withdraw-block {
+  padding: 10px 40px;
+}
+.dashboard-section .currency-select-container {
+  display: flex;
+  flex-direction: row;
+}
+.dashboard-section .currency-label {
+  display: flex;
+  flex-grow: 1;
+  justify-content: flex-end;
+  color: white;
+}
+.dashboard-section .currency-select {
+  width: 160px;
+  border-color: #2f5597;
+  background-color: transparent;
+  color: white;
+}
+.dashboard-section .transfer-exchange-rate {
+  position: relative;
+}
+.dashboard-section .transfer-exchange-rate .amount {
+  position: absolute;
+  top: 0;
+  color: white;
+  width: 100%;
+  text-align: center;
+}
+.dashboard-section .transfer-exchange-rate span {
+  color: white;
+}
+.dashboard-section .transfer-exchange-rate .gna-box {
+  padding: 10px 40px;
+  border: 1px solid #41719c;
+  border-radius: 10px;
+  color: white;
+}

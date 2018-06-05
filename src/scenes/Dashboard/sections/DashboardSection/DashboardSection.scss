@@ -1,0 +1,81 @@
+.dashboard-section {
+  background: linear-gradient(-45deg, #2e5496, #022262, #1e4c78);
+  .Aligner-item--top {
+    align-self: flex-start;
+  }
+
+  .Aligner-item--bottom {
+    align-self: flex-end;
+  }
+
+  .title, .balance, .rate, .equivalent {
+    color: white;
+  }
+
+  .title {
+    font-size: 3.5em;
+    margin-bottom: 20px;
+  }
+
+  .equivalent {
+    font-size: 0.7em;
+    text-align: right;
+    width: 100%;
+  }
+  .balance {
+    display: inline-block;
+  }
+
+  .transparent-div {
+    background: transparent;
+    border-radius: 15px;
+    color: white;
+    border: 1px solid white;
+    padding: 4px 2px;
+    margin-bottom: 20px;
+  }
+
+  .deposit-block, .withdraw-block {
+    padding: 10px 40px;
+  }
+
+  .currency-select-container {
+    display: flex;
+    flex-direction: row;
+  }
+  .currency-label {
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+    color: white;
+  }
+  .currency-select {
+    width: 160px;
+    border-color: #2f5597;
+    background-color: transparent;
+    color: white;
+  }
+
+  .transfer-exchange-rate {
+    position: relative;
+
+    .amount {
+      position: absolute;
+      top: 0;
+      color: white;
+      width: 100%;
+      text-align: center;
+    }
+
+    span {
+      color: white;
+    }
+
+    .gna-box {
+      padding: 10px 40px;
+      border: 1px solid #41719c;
+      border-radius: 10px;
+      color: white;
+    }
+  }
+}

@@ -1,0 +1,13 @@
+.photo-uploader {
+  position: relative;
+}
+.photo-uploader .image-preview {
+  display: block;
+  width: 240px;
+  height: 170px;
+  border: 1px solid #222222;
+  border-radius: 30px;
+}
+.photo-uploader .image-input {
+  display: none;
+}

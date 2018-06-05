@@ -1,0 +1,32 @@
+.other-settings-section .rounded-switch-container {
+  display: inline-block;
+}
+
+.other-settings-section .change-password {
+  color: #212529;
+  cursor: pointer;
+  font-size: 1.25rem;
+  text-decoration: none;
+  justify-content: flex-end;
+}
+.other-settings-section .change-password:hover,
+.other-settings-section .change-password:focus {
+  text-decoration: none;
+}
+
+.other-settings-section .currency-select-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.other-settings-section .currency-label {
+  display: flex;
+  flex-grow: 1;
+  justify-content: flex-end;
+}
+
+.other-settings-section .currency-select {
+  width: 160px;
+  color: #2f5597;
+  border-color: #2f5597;
+}

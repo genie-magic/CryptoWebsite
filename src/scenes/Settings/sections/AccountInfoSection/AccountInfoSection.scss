@@ -1,0 +1,15 @@
+.account-info-section {
+  position: relative;
+  width: 100%;
+  .photo-uploader-container {
+    position: absolute;
+    left: 0;
+    top: 0;
+    text-align: center;
+  }
+
+  .account-info-container {
+    padding-left: 250px;
+    text-align: left;
+  }
+}

@@ -1,0 +1,12 @@
+.register-section {
+  text-align: center;
+  width: 100%;
+  padding: 30px 90px;
+}
+.register-section .title {
+  font-size: 3em;
+  margin-bottom: 30px;
+}
+.register-section div {
+  padding: 2px 3px;
+}

@@ -7,6 +7,7 @@ import App from './scenes/app';
 import registerServiceWorker from './registerServiceWorker';
 import 'bootstrap/dist/css/bootstrap.css';
 import './global.css';
+import './assets/fonts/font-awesome/css/font-awesome.min.css';
 
 const target = document.querySelector('#root');
 
