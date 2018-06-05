@@ -1,0 +1,54 @@
+.transaction-section {
+  padding: 20px 0;
+}
+.transaction-section .Aligner-item--top {
+  align-self: flex-start;
+}
+.transaction-section .Aligner-item--bottom {
+  align-self: flex-end;
+}
+.transaction-section .title {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: black;
+}
+.transaction-section .deposit-history {
+  padding: 10px 0;
+}
+.transaction-section .deposit-history .deposit-title {
+  border: 1px solid #41719c;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #1f4e79;
+  color: white;
+  padding: 5px 0;
+  font-weight: bold;
+}
+.transaction-section .withdraw-history {
+  padding: 10px 0;
+}
+.transaction-section .withdraw-history .withdraw-title {
+  padding: 5px 0;
+  border: 1px solid #41719c;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #1f4e79;
+  color: white;
+  font-weight: bold;
+}
+.transaction-section .history-table {
+  margin-top: 3px;
+  border-collapse: separate !important;
+}
+.transaction-section .history-table thead {
+  border: none;
+}
+.transaction-section .history-table thead th {
+  border-radius: 8px;
+  background-color: #0d0d0d;
+  color: white;
+}
+.transaction-section .history-table tbody td {
+  border-radius: 8px;
+  border: 1px solid #0d0d0d;
+}

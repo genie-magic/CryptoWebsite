@@ -1,5 +1,13 @@
 import React from 'react';
-import { Container, Row, Col, FormGroup, Input, Label } from 'reactstrap';
+import {
+  Container,
+  Row,
+  Col,
+  FormGroup,
+  Input,
+  Label,
+  Button
+} from 'reactstrap';
 import Flexbox from 'flexbox-react';
 import './DashboardSection.css';
 
@@ -61,6 +69,18 @@ class DashboardSection extends React.Component {
                 <div className="withdraw-block">
                   <div className="transparent-div">Withdraw</div>
                   <CurrencyDropdown />
+                  <TransferRate />
+                </div>
+                <div className="address-block">
+                  <FormGroup row>
+                    <Label for="address" md={2} className="text-white">
+                      Address
+                    </Label>
+                    <Col md={10}>
+                      <Input type="text" name="address" id="address" />
+                    </Col>
+                  </FormGroup>
+                  <Button className="submit-button">Submit</Button>
                 </div>
               </Col>
             </Row>
