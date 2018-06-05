@@ -1,9 +1,25 @@
 .settings {
+  display: flex;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
   text-align: center;
-  padding: 30px 0;
 
   .title {
     font-size: 3.0em;
-    margin-bottom: 30px;
+    margin-bottom: 100px;
+  }
+
+
+  .Aligner-item--top {
+    align-self: flex-start;
+  }
+
+  .Aligner-item--bottom {
+    align-self: flex-end;
+  }
+
+  .Aligner-item-center {
   }
 }

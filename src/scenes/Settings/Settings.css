@@ -1,8 +1,18 @@
 .settings {
+  display: flex;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
   text-align: center;
-  padding: 30px 0;
 }
 .settings .title {
   font-size: 3em;
-  margin-bottom: 30px;
+  margin-bottom: 100px;
+}
+.settings .Aligner-item--top {
+  align-self: flex-start;
+}
+.settings .Aligner-item--bottom {
+  align-self: flex-end;
 }

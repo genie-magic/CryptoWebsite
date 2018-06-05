@@ -12,3 +12,17 @@
   padding-left: 250px;
   text-align: left;
 }
+.account-info-section .divider {
+  position: absolute;
+  width: 1px;
+  height: 100%;
+  background: #d0cece;
+  padding: 0;
+  right: 0;
+  margin-right: -2px;
+}
+@media only screen and (max-width: 767px) {
+  .account-info-section .divider {
+    display: none;
+  }
+}

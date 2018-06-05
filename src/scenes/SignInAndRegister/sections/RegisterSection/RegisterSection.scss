@@ -12,7 +12,22 @@
     padding: 2px 3px;
   }
 
+  .kyc {
+    display: none;
+  }
   .register-button {
 
+  }
+
+  .divider {
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    background: #d0cece;
+    padding: 0;
+    margin-left: -110px;
+    @media only screen and (max-width: 767px) {
+      display: none;
+    }
   }
 }

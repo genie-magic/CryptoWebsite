@@ -13,11 +13,22 @@ import Flexbox from 'flexbox-react';
 import './RegisterSection.css';
 
 class RegisterSection extends React.Component {
+  constructor(props) {
+    super(props);
+    this._onClickUploadKYC = this._onClickUploadKYC.bind(this);
+    this.inputKYC = null;
+  }
+
+  _onClickUploadKYC(e) {
+    e.preventDefault();
+    this.inputKYC.click();
+  }
   render() {
     return (
       <div className="register-section">
         <div className="title"> Register </div>
-        <Form>
+        <Form className="position-relative">
+          <div className="divider" />
           <Row>
             <Col xs="6">
               <Input type="text" name="first_name" placeholder="First Name" />
@@ -63,7 +74,20 @@ class RegisterSection extends React.Component {
             </Col>
           </Row>
           <Row>
-            <Input type="file" name="KYC" id="exampleFile" />
+            <input
+              className="kyc"
+              type="file"
+              name="KYC"
+              ref={ref => {
+                this.inputKYC = ref;
+              }}
+            />
+            <Button
+              className="text-center w-100"
+              onClick={this._onClickUploadKYC}
+            >
+              Upload KYC
+            </Button>
           </Row>
           <Row>
             <Input type="email" name="email" placeholder="Email" />

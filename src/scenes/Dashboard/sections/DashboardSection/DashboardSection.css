@@ -48,6 +48,7 @@
   flex-grow: 1;
   justify-content: flex-end;
   color: white;
+  padding-top: 0 !important;
 }
 .dashboard-section .currency-select {
   width: 160px;

@@ -1,0 +1,14 @@
+.signin-and-register {
+  display: flex;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  .Aligner-item--top {
+    align-self: flex-start;
+  }
+
+  .Aligner-item--bottom {
+    align-self: flex-end;
+  }
+}

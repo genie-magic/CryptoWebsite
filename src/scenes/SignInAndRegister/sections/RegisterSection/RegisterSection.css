@@ -10,3 +10,19 @@
 .register-section div {
   padding: 2px 3px;
 }
+.register-section .kyc {
+  display: none;
+}
+.register-section .divider {
+  position: absolute;
+  width: 1px;
+  height: 100%;
+  background: #d0cece;
+  padding: 0;
+  margin-left: -110px;
+}
+@media only screen and (max-width: 767px) {
+  .register-section .divider {
+    display: none;
+  }
+}

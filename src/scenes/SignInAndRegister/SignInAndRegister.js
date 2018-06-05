@@ -7,14 +7,20 @@ import { Row, Col } from 'reactstrap';
 class SignInAndRegister extends React.Component {
   render() {
     return (
-      <Row>
-        <Col md="6">
-          <LoginSection />
-        </Col>
-        <Col md="6">
-          <RegisterSection />
-        </Col>
-      </Row>
+      <div className="signin-and-register">
+        <div className="Aligner-item Aligner-item--top" />
+        <div className="Aligner-item text-center">
+          <Row>
+            <Col md="6">
+              <LoginSection />
+            </Col>
+            <Col md="6">
+              <RegisterSection />
+            </Col>
+          </Row>
+        </div>
+        <div className="Aligner-item Aligner-item--bottom" />
+      </div>
     );
   }
 }

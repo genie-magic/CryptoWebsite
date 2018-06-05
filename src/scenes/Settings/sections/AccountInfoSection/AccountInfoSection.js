@@ -14,6 +14,7 @@ class AccountInfoSection extends React.Component {
     };
     return (
       <div className="account-info-section">
+        <div className="divider" />
         <div className="photo-uploader-container">
           <PhotoUploader />
         </div>
