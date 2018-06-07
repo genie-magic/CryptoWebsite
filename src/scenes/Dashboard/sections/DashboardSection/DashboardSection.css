@@ -76,6 +76,9 @@
   border-radius: 10px;
   color: white;
 }
+.dashboard-section .transfer-exchange-rate .gna-box:focus {
+  outline: none;
+}
 .dashboard-section .transfer-exchange-rate .gna-label {
   color: white;
 }

@@ -29,14 +29,18 @@ const TransferRate = props => (
     <Row>
       <Col xs={5}>
         <div className="amount">Amount</div>
-        <div className="gna-box">1157</div>
+        <div className="gna-box" contentEditable={true}>
+          1157
+        </div>
         <div className="gna-label">GNA</div>
       </Col>
       <Col xs={2}>
         <span className="fa fa-exchange" />
       </Col>
       <Col xs={5}>
-        <div className="gna-box">1157</div>
+        <div className="gna-box" contentEditable={true}>
+          1157
+        </div>
         <div className="gna-label">GNA</div>
         <div className="to-dollar">Equivalent to: $1300</div>
       </Col>

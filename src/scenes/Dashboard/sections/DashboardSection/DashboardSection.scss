@@ -79,6 +79,10 @@
       border: 1px solid #41719c;
       border-radius: 10px;
       color: white;
+
+      &:focus {
+        outline: none;
+      }
     }
 
     .gna-label {
